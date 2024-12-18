@@ -6,7 +6,9 @@
 
 * Utilized as fraternity academic chair to track and incentivize studying 📚
 
-* Downloadable and runnable .app file 📁 (Mac? Settings -> Privacy & Security -> Allow)
+* Downloadable Executables:
+  🍏 Mac: .app    (Permissions: Settings -> Privacy & Security -> Allow)
+  📁 Windows: .exe
 
 * GUI built with PyQt6 🐍
 
