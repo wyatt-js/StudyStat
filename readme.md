@@ -9,7 +9,7 @@
   * 🍏 Mac: .app    (Permissions: Settings -> Privacy & Security -> Allow)
   * 📁 Windows: .exe
 
-* Utilized as fraternity academic chair to track and incentivize studying 📚
+* Utilized to track and promote academic productivity in my fraternity 📚
 
 ### Create Leaderboard:
 * SQL data cleaning to group and sort .db data:
