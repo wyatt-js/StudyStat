@@ -7,8 +7,8 @@
 * Utilized as fraternity academic chair to track and incentivize studying 📚
 
 * Downloadable Executables:
-  🍏 Mac: .app    (Permissions: Settings -> Privacy & Security -> Allow)
-  📁 Windows: .exe
+  * 🍏 Mac: .app    (Permissions: Settings -> Privacy & Security -> Allow)
+  * 📁 Windows: .exe
 
 * GUI built with PyQt6 🐍
 
