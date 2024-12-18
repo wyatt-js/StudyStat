@@ -52,9 +52,9 @@ def gen_main_gui(layout):
     global connected
     check_connection()
     if connected:
-        label = QLabel("You are connected to SpectrumWiFi and logging time")
+        label = QLabel("You are connected to eduroam and logging time")
     else:
-        label = QLabel("You are not connected to SpectrumWiFi")
+        label = QLabel("You are not connected to eduroam")
     label.setStyleSheet("color: black;")
     item = layout.takeAt(1)
     widget = item.widget()
@@ -70,9 +70,9 @@ def check_connection():
     else:
         ssid = win_get_ssid()
     if ssid:
-        if "SpectrumWiFi" in ssid and not connected:  # Newly joining the newtwork
+        if "eduroam" in ssid and not connected:  # Newly joining the newtwork
             connected = True
-        if "SpectrumWiFi" not in ssid and connected:  # Leaving the network
+        if "eduroam" not in ssid and connected:  # Leaving the network
             connected = False
     if connected:   # Logs data every minute
         time_total += 1
