@@ -18,3 +18,5 @@
     FROM logs
     GROUP BY client_id
     ORDER BY total_time DESC;
+
+* Weekly leaderboard updates sent to fraternity Slack!
