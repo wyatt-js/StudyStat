@@ -6,7 +6,7 @@
 
 * Utilized as fraternity academic chair to track and incentivize studying 📚
 
-* Downloadable and runnable .app file 📁
+* Downloadable and runnable .app file 📁 (Mac? Settings -> Privacy & Security -> Allow)
 
 * GUI built with PyQt6 🐍
 
@@ -18,3 +18,4 @@
     FROM logs
     GROUP BY client_id
     ORDER BY total_time DESC;
+* Weekly leaderboard updates sent to fraternity Slack
