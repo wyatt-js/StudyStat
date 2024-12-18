@@ -3,14 +3,13 @@
 * Tracks time connected to Eduroam (UNC On-Campus WiFi) 📶
 
 * Client-server app! Data is sent to a Flask server hosted with PythonAnywhere ☁️
-
-* Utilized as fraternity academic chair to track and incentivize studying 📚
+  * GUI built with PyQt6 🐍
 
 * Downloadable Executables:
   * 🍏 Mac: .app    (Permissions: Settings -> Privacy & Security -> Allow)
   * 📁 Windows: .exe
 
-* GUI built with PyQt6 🐍
+* Utilized as fraternity academic chair to track and incentivize studying 📚
 
 ### Create Leaderboard:
 * SQL data cleaning to group and sort .db data:
