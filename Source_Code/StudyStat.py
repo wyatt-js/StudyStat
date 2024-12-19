@@ -106,9 +106,10 @@ def mac_get_ssid() -> str:
 
 
 def win_get_ssid() -> str:
-    result = subprocess.check_output(["netsh", "wlan", "show", "interfaces"])
-    result = result.decode('utf-8')
-    for line in result.split('\n'):
+    subprocess_result = subprocess.Popen('netsh wlan show interfaces',shell=True,stdout=subprocess.PIPE)
+    subprocess_output = subprocess_result.communicate()[0],subprocess_result.returncode
+    network_name = subprocess_output[0].decode('utf-8')
+    for line in network_name.split('\n'):
         if "SSID" in line:
             return line.split(":")[1]
     
