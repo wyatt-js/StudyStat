@@ -4,6 +4,7 @@ import requests
 import sys
 from PyQt6.QtCore import QTimer
 from PyQt6.QtWidgets import QApplication, QLabel, QWidget, QLineEdit, QVBoxLayout
+import api_vars
 
 time_total: int = 0
 connected: bool = False
@@ -87,7 +88,7 @@ def sendData(client_name, time_total):
         "data": time_total
     }
     print(f"Logged {time_total} seconds")
-    try:
+    try:        # GitHub, censor API link by importing another file w/ var, and adding file to .gitignore
         status = requests.post("http://wyattjs.pythonanywhere.com/send_data", json=data, timeout=5)
         print(status.status_code)
     except requests.exceptions.RequestException as e:
