@@ -5,7 +5,7 @@
 * Client-server app! Data is sent to a Flask server hosted with PythonAnywhere ☁️
   * GUI built with PyQt6 🐍
 
-* Downloadable Executables:
+* Downloadable Executables:  (Check Releases Tab)
   * 🍏 Mac: .app    (Permissions: Settings -> Privacy & Security -> Allow)
   * 📁 Windows: .exe
 
