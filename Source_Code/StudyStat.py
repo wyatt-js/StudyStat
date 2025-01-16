@@ -4,7 +4,6 @@ import requests
 import sys
 from PyQt6.QtCore import QTimer
 from PyQt6.QtWidgets import QApplication, QLabel, QWidget, QLineEdit, QVBoxLayout
-import api_vars
 
 time_total: int = 0
 connected: bool = False
